@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "consts",
+    "puzzlefile",
+    "sudoku",
+    "sudoku-config",
+    "sudoku-core",
+    "sudoku-log",
+    "sudoku-scrape",
+    "./sudoku-tauri/src-tauri",
+]

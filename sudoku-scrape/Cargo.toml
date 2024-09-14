@@ -1,0 +1,18 @@
+[package]
+name = "sudoku-scrape"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { version = "1.0.88", features = ["backtrace"] }
+fern = "0.6.2"
+humantime = "2.1.0"
+log = "0.4.22"
+reqwest = "0.12.7"
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+tokio = { version = "1.40.0", features = ["full"] }
+puzzlefile = { path = "../puzzlefile" }
+sudoku-config = { path = "../sudoku-config" }
+chrono = { version = "0.4.38", features = ["serde"] }
+sudoku-log = { path = "../sudoku-log" }

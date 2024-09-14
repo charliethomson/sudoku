@@ -1,0 +1,13 @@
+[package]
+name = "sudoku-log"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.88"
+dirs = "5.0.1"
+fern = "0.6.2"
+humantime = "2.1.0"
+log = "0.4.22"
+consts = { path = '../consts' }
+chrono = "0.4.38"

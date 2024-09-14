@@ -1,0 +1,17 @@
+[package]
+name = "sudoku-config"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dirs = "5.0.1"
+figment = { version = "0.10.19", features = ["env", "json", "yaml"] }
+log = "0.4.22"
+serde = { version = "1.0.210", features = ["derive"] }
+thiserror = "1.0.63"
+puzzlefile = { path = "../puzzlefile" }
+chrono = { version = "0.4.38", features = ["serde"] }
+consts = { path = "../consts" }
+serde_yaml = "0.9.34"
+strum = "0.26.3"
+strum_macros = "0.26.4"

@@ -1,0 +1,14 @@
+[package]
+name = "sudoku"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fern = "0.6.2"
+humantime = "2.1.0"
+iced = { version = "0.12.1", features = ["advanced"] }
+log = "0.4.22"
+sudoku-core = { path = "../sudoku-core" }
+sudoku-config = { path = "../sudoku-config" }
+sudoku-log = { path = "../sudoku-log" }
+puzzlefile = { path = "../puzzlefile" }
